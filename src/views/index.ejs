@@ -8,9 +8,9 @@
 <body>
   <h1>Pro Recipe Book</h1>
   <a class="button" href="/new">Add New Recipe</a>
-  <ul>
+    <ul>
     <% recipes.forEach((recipe) => { %>
-      <li class="recipe_list">
+      <li class="recipe-card">
         <h2><%= recipe.title %></h2>
         <p><strong>Ingredients:</strong> <%= recipe.ingredients %></p>
         <p><strong>Instructions:</strong> <%= recipe.instructions %></p>
