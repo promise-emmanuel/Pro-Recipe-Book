@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe Book</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+
+</head>
+<body>
+  <h1>Pro Recipe Book</h1>
+  <a class="button" href="/new">Add New Recipe</a>
+  <ul>
+    <% recipes.forEach((recipe) => { %>
+      <li class="recipe_list">
+        <h2><%= recipe.title %></h2>
+        <p><strong>Ingredients:</strong> <%= recipe.ingredients %></p>
+        <p><strong>Instructions:</strong> <%= recipe.instructions %></p>
+      </li>
+    <% }); %>
+  </ul>
+</body>
+</html>
