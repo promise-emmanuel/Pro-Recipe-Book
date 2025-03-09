@@ -15,17 +15,17 @@ app.use(express.static('static'));
 // In-memory storage for recipes
 const recipes = [];
 
-// Route to display the list of recipes
+// route to display the list of recipes
 app.get('/', (req, res) => {
   res.render('index', { recipes });
 });
 
-// Route to show the form to add a new recipe
+// route to show the form to add a new recipe
 app.get('/new', (req, res) => {
   res.render('new');
 });
 
-// Route to handle recipe submissions
+// route to handle recipe submissions
 app.post('/recipes', (req, res) => {
   const { title, ingredients, instructions } = req.body;
   recipes.push({ title, ingredients, instructions });

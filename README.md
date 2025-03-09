@@ -1,15 +1,15 @@
 # Overview
-As a software engineer, I am trying to enhance my understanding of dynamic web development so I developed a simple in-memory Recipe Book web app using Node.js, Express and EJS templating.
+As a software engineer passionate about developing innovative solutions, I continously seek to expand my expertise in all areas of software development. To further my skills, I developed the Pro Recipe Book-a simple Recipe Book app using Node.js, Express and EJS templating.
 
-The Pro Recipe Book is a web app that helps user store recipes for they may have experimented on themselves or. think of it like an app that everyone can record their secret recipe and share for everyone to see it. To start the server, run the command node server.js from the project directory and open http://localhost:3000 in a browser to see the landing page of the app.
+The Pro Recipe Book allows users to easily store, and share their favorite recipes-whether it is a cherished family secret or an experimental dish. To start the server locally, navigate to the project directory, run the command "node server.js" and open http://localhost:3000 in a browser to access the landing page of the app.
 
-I also have the project hosted on render so you can view it directly from this link without cloning the repo and starting the server.
+For added convenience, the project is hosted live on Render, so you can view the directly from this link without cloning the repo and starting the server.
+[Live Software Link](https://pro-recipe-book.onrender.com)
 
-{Describe your purpose for writing this software.}
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
+The primary goal of this project is to deepen my understanding of server-side development, dynamic content generation, and user interaction management. This demo video provides a detailed walkthough of the code, demonstrate starting the server and guides you through each page of the app.
+[Software Demo Video](https://youtu.be/wbJZK0v3eJw)
 
-[Software Demo Video](http://youtube.link.goes.here)
 
 # Web Pages
 - Recipe List Page (Home Page):
